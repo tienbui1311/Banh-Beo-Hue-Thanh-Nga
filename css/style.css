@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700&display=swap&subset=vietnamese');
+
+body{
+	overflow-x: hidden;
+	font-family: 'Asap', san-serif;
+	color:#505962;
+}
+
+.offset: before {
+	display:block;
+	content:"";
+	height: 3rem;
+	margin-top: -4rem;
+}
+
+/*---- Navigation ----*/
+
+
+
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2rem;
+	letter-spacing: .2rem;
+	background: rgba(152,84,99,.7) !important;
+	}
+.navbar-dark .navbar-brand {
+	color: #ffd3b6;
+	
+}
+
+.navbar-dark .navbar-brand:hover {
+	color: #fefda1;
+}
+
+.navbar-nav li{
+	
+	padding-right: .9rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffd3b6;
+	
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #fefda1;
+}
+
+
+/*--- Landing Page ---*/
+
+.home-inner {
+	background-image: url(../img/homepageimage.png);
+	
+	
+}
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color: #ffd3b6;
+	text-transform: uppercase;
+}
+
+.btn-lg {
+	border-width:medium;
+	border-color: #bbd6c6;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+	color: #bbd6c6;
+}
+
+/*---About---*/
+
+.jumbotron {
+	padding-top:5rem;
+	margin-bottom: 0;
+}
+h3 {
+	padding-top:5rem;
+	font-weight: 700;
+	text-transform:uppercase;
+	color: #985463;
+}
+h5, h6 {
+	color: #5d3b78;
+	
+}
+ /*--- Menu ---*/
+ 
+.dark {
+	padding-top: 5rem;
+	color: #985463;
+	text-transform:uppercase;
+}
+
+.fixed-background h1 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	text-shadow: .1rem .1rem .8rem black;
+	
+}
+ 
+.btn-outline-light {
+	border-width:medium;
+	border-color: #ffd3b6;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+	color: #ffd3b6;
+}
+
+.fixed {
+	background-image: url(../img/lovelyDaffodil.png);
+	z-index: -1;
+}
+/*-- Design goal --*/
+
+.img-responsive {
+	max-width: 100%;
+}
+
+/*---- Flex Box ---*/
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+
+
+.flex-item {
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#location {
+	padding-top: 5rem;
+	background-color: #ffd3b6;
+}
+
+svg.svg-inline--fa{
+	text-align:center;
+	color: #985463;
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0;
+	
+}
+
+
+/*-- footer --*/
+footer {
+	background: #ffd3b6;
+	color:#985463;
+	text-align:center;
+	padding-bottom: 1rem;
+	margin-top: 2rem;
+}
+hr.socket {
+	width: 100%;
+	border-top: .2rem solid #985463;
+	margin-top: 3rem;
+	
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
